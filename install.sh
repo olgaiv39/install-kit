@@ -32,6 +32,10 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
  
 sudo docker run hello-world
 
+# add git + cmake  
+sudo apt-get update 
+sudo apt-get install git cmake build-essentials
+
 # install rclone 
 
 curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
